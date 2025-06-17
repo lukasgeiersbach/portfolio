@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontakt | Lukas Geiersbach</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Lukas Geiersbach</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Start</a></li>
+        <li><a href="about.html">Über mich</a></li>
+        <li><a href="gallery.html">Galerie</a></li>
+        <li><a href="contact.html" class="active">Kontakt</a></li>
+        <li><a href="impressum.html">Impressum</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="contact">
+      <h2>Kontakt</h2>
+      <form action="https://formspree.io/f/xkgbzneq"
+  method="POST">
+<input type="hidden" name="_redirect" value="danke.html> 
+</form>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">E-Mail</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Nachricht</label>
+        <textarea id="message" name="message" rows="6" required></textarea>
+
+        <button type="submit">Absenden</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Lukas Geiersbach</p>
+  </footer>
+</body>
+</html>
